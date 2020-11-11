@@ -16,12 +16,12 @@ function Map({ countries, casesType, center, zoom }) {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
 
-        <GeoJSON className='geojson'
+        {/* <GeoJSON className='geojson'
           data={countries_map}
           
           // style={this.geoJSONStyle}
           // onEachFeature={this.onEachFeature}
-        />
+        /> */}
 
         {showDataOnMap(countries, casesType)}
       </LeafletMap>
