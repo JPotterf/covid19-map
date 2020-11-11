@@ -42,5 +42,6 @@
 }
 
 .geojson{ 
-  fill-opacity: 1;
+  fill-opacity: 0;
+  stroke-width:0;
 }

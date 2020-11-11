@@ -13,7 +13,6 @@ import Table from "./Table";
 import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 import Map from "./Map";
-import countries from "./countries.json";
 import "leaflet/dist/leaflet.css";
 
 const App = () => {
